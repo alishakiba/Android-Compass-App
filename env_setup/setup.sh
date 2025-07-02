@@ -33,3 +33,10 @@ touch gradle/wrapper/gradle-wrapper.jar
 touch gradle/wrapper/gradle-wrapper.properties
 
 echo "Project scaffolding complete in /"
+#
+sudo apt-get update
+sudo apt-get install android-tools-adb
+#
+gradle
+chmod +x gradlew
+./gradlew assembleDebug
