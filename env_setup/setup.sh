@@ -38,5 +38,6 @@ sudo apt-get update
 sudo apt-get install android-tools-adb
 #
 gradle
+gradle wrapper
 chmod +x gradlew
 ./gradlew assembleDebug
